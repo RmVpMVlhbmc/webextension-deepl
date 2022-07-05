@@ -20,6 +20,6 @@
   },
 
   "background": {
-    "scripts": ["src/index.js"]
+    "page": "src/background.html"
   }
 }
