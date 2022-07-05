@@ -6,5 +6,17 @@
   "extensionDescription": {
     "message": "Translate selected text content using DeepL Translator in your browsers.",
     "description": "Description of the extension."
+  },
+  "deeplErrorInvalidParameter": {
+    "message": "A parameter in the request is invalid.",
+    "description": "Error for invalid parameter."
+  },
+  "deeplErrorInvalidToken": {
+    "message": "The token in the request is invalid.",
+    "description": "Error for invalid token."
+  },
+  "deeplErrorUnknown": {
+    "message": "The request failed for unknwon reason.",
+    "description": "Unknown error."
   }
 }
