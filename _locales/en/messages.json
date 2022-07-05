@@ -1,0 +1,10 @@
+{
+  "extensionName": {
+    "message": "DeepL Translator for Browsers",
+    "description": "Name of the extension."
+  },
+  "extensionDescription": {
+    "message": "Translate selected text content using DeepL Translator in your browsers.",
+    "description": "Description of the extension."
+  }
+}

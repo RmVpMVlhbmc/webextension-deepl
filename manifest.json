@@ -8,10 +8,12 @@
     }
   },
 
-  "name": "DeepL Translator for Browsers",
+  "default_locale": "en",
+
+  "name": "__MSG_extensionName__",
   "version": "1.0.0",
 
-  "description": "Translate selected text content using DeepL Translator for your browsers.",
+  "description": "__MSG_extensionDescription__",
 
   "icons": {
     "48": "icon.png"
