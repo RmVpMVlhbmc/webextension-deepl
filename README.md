@@ -1,0 +1,1 @@
+# DeepL Translator for Browsers

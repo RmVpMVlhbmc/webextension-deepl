@@ -1,0 +1,9 @@
+{
+  "private": true,
+  "name": "webextension-deepl",
+  "packageManager": "yarn@3.2.1",
+  "type": "module",
+  "dependencies": {
+    "web-ext": "^7.1.0"
+  }
+}
