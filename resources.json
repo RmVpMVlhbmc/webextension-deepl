@@ -1,0 +1,18 @@
+{
+    "mozilla": [
+        {
+
+            "from": "browser/components/extensions/extension.css",
+            "to": "src/third_party/extension.css"
+        }
+    ],
+    "unpkg": [
+        {
+            "from": {
+                "package": "webextension-polyfill@latest",
+                "file":"dist/browser-polyfill.min.js"
+            },
+            "to": "src/third_party/browser-polyfill.js"
+        }
+    ]
+}

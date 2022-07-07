@@ -3,7 +3,11 @@
   "name": "webextension-deepl",
   "packageManager": "yarn@3.2.1",
   "type": "module",
+  "scripts": {
+    "prepare": "node ./bin/fetch-resources.js"
+  },
   "dependencies": {
+    "node-fetch": "^3.2.6",
     "web-ext": "^7.1.0"
   }
 }
