@@ -8,7 +8,11 @@
     }
   },
 
-  "permissions": ["storage"],
+  "permissions": [
+    "activeTab",
+    "contextMenus",
+    "storage"
+  ],
 
   "default_locale": "en",
 

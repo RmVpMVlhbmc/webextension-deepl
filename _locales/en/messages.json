@@ -34,6 +34,9 @@
   "optionSave": {
     "message": "Save",
     "description": "Option for saving other options."
+  },
+  "contextMenuTranslate": {
+    "message": "Translate",
+    "description": "Context menu item for translate text."
   }
-  
 }
