@@ -4,7 +4,7 @@
   "browser_specific_settings": {
     "gecko": {
       "id": "deepl@webextensions.feiyang.moe",
-      "strict_min_version": "39"
+      "strict_min_version": "89.0"
     }
   },
 
