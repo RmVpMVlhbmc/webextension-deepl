@@ -26,11 +26,11 @@
   },
 
   "background": {
-    "page": "src/background.html"
+    "page": "background.html"
   },
 
   "options_ui": {
-    "page": "src/options.html",
+    "page": "options.html",
     "browser_style": true
   }
 

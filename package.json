@@ -4,7 +4,8 @@
   "packageManager": "yarn@3.2.1",
   "type": "module",
   "scripts": {
-    "prepare": "node ./bin/fetch-resources.js"
+    "prepare": "node ./bin/fetch-resources.js",
+    "build": "web-ext build --overwrite-dest --source-dir ./src"
   },
   "dependencies": {
     "node-fetch": "^3.2.6",
