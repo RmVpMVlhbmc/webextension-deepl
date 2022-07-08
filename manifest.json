@@ -8,6 +8,8 @@
     }
   },
 
+  "permissions": ["storage"],
+
   "default_locale": "en",
 
   "name": "__MSG_extensionName__",
@@ -21,5 +23,11 @@
 
   "background": {
     "page": "src/background.html"
+  },
+
+  "options_ui": {
+    "page": "src/options.html",
+    "browser_style": true
   }
+
 }

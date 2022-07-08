@@ -18,5 +18,22 @@
   "deeplErrorUnknown": {
     "message": "The request failed for unknwon reason.",
     "description": "Unknown error."
+  },
+  "optionFree": {
+    "message": "Free",
+    "description": "Option for whether this extension should use DeepL Free API."
+  },
+  "optionToken": {
+    "message": "Token",
+    "description": "Option for DeepL API access token."
+  },
+  "optionTarget": {
+    "message": "Target",
+    "description": "Option for target language."
+  },
+  "optionSave": {
+    "message": "Save",
+    "description": "Option for saving other options."
   }
+  
 }

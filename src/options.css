@@ -1,0 +1,10 @@
+#options {
+    display: flex;
+    flex-direction: column;
+    align-self: center;
+}
+
+.option {
+    display: flex;
+    justify-content: space-between;
+}

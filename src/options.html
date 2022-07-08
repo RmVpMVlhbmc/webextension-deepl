@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <link rel="stylesheet" href="./options.css">
+</head>
+
+<body>
+    <div id="options">          
+            <div class="browser-style option">
+                <label data-message="optionFree" for="free"></label>
+                <input type="checkbox" id="free">
+            </div>
+            <div class="browser-style option">
+                <label data-message="optionToken" for="token"></label>
+                <input type="text" id="token">
+            </div>
+        <div class="option">
+            <label data-message="optionTarget" for="target"></label>
+            <select class="browser-style" id="target">
+                <option value="BG">BG</option>
+                <option value="CS">CS</option>
+                <option value="DA">DA</option>
+                <option value="DE">DE</option>
+                <option value="EL">EL</option>
+                <option value="EN">EN</option>
+                <option value="ES">ES</option>
+                <option value="ET">ET</option>
+                <option value="FI">FI</option>
+                <option value="FR">FR</option>
+                <option value="HU">HU</option>
+                <option value="ID">ID</option>
+                <option value="IT">IT</option>
+                <option value="JA">JA</option>
+                <option value="LT">LT</option>
+                <option value="LV">LV</option>
+                <option value="NL">NL</option>
+                <option value="PL">PL</option>
+                <option value="PT">PT</option>
+                <option value="RO">RO</option>
+                <option value="RU">RU</option>
+                <option value="SK">SK</option>
+                <option value="SL">SL</option>
+                <option value="SV">SV</option>
+                <option value="TR">TR</option>
+                <option value="ZH">ZH</option>
+            </select>
+        </div>
+
+        <button class="browser-style" data-message="optionSave" id="save"></button>
+
+        <script defer type="module" src="./third_party/browser-polyfill.js"></script>
+        <script defer type="module" src="./options.js"></script>
+</body>
+
+</html>
